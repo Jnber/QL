@@ -44,10 +44,10 @@ public class TP2 {
         signinButton.click();
         Thread.sleep(1000);
         WebElement emailTextField = driver.findElement(By.cssSelector(".form-group > div > input"));
-        emailTextField.sendKeys("benhamidaessia@gmail.com");
+        emailTextField.sendKeys("mail");
         Thread.sleep(1000);
         WebElement pwdTextField = driver.findElement(By.cssSelector(".form-group > div > div > input"));
-        pwdTextField.sendKeys("#tieW5h4r2i2*#x");
+        pwdTextField.sendKeys("password");
         Thread.sleep(1000);
         WebElement submitButton = driver.findElement(By.id("submit-login"));
         submitButton.click();
